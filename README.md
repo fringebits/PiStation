@@ -1,14 +1,5 @@
-# PiFarm
-Scraps of code from initial setup of Raspberry Pi, Visual Studio Code, and Python
+# PiStation
+
+Periodically read from Govee 5075 and publish results to Thingspeak.
 
 *** WARNING *** this repo is a work in progress *** WARNING ***
-
-Crontab entries:
-
-Update.py - runs hourly
-0 * * * * PiFarm/Update.py >/dev/null 2>&1
-
-Monitor.py -- runs every 10m
-*/10 * * * * * PiFarm/Monitor.py >/dev/null 2>&1
-
-
