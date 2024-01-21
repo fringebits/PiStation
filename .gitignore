@@ -1,6 +1,5 @@
-things.json
-farm.log*
-test.log
+*.channel
+station.log*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

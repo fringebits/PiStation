@@ -1,6 +1,5 @@
-import farm
-import random
 import logging
+import random
 logger = logging.getLogger()
 
 class Sensor():

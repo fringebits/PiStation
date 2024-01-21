@@ -4,9 +4,9 @@ from logging.handlers import RotatingFileHandler
 import logging
 logger = logging.getLogger()
 
-logFile = 'farm.log'
+logFile = 'station.log'
 
-def init_logs(debug):
+def init_logs(debug=False):
     handler = RotatingFileHandler(logFile, mode='a', backupCount=5)
     if os.path.isfile(logFile):
         handler.doRollover()
